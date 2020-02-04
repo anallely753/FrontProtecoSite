@@ -107,8 +107,9 @@ footer .container-fluid p{
 	font-size: calc(1.5rem + 1vw);
 }
 
-.banner button{
-	font-size: calc(.8rem + .8vw);
+.banner div button{
+	font-size: calc(.7rem + .3vw);
+	font-family: 'PT Sans', sans-serif;
 }
 
 

@@ -15,14 +15,14 @@ nav{
 	position: fixed !important;
 }
 .navbar-nav .active a{
-	color: #E7C810 !important;
+	color: #E8C918 !important;
 }
 .nav-link, .dropdown-menu .dropdown-item{
 	color: white !important;
 	font-family: 'PT Sans', sans-serif;
 }
 .nav-link:hover, .dropdown-menu .dropdown-item:hover{
-	color: #E7C810 !important;
+	color: #E8C918 !important;
 	background-color: #022c43;
 }
 ul .dropdown-menu{
@@ -49,7 +49,7 @@ ul .dropdown-menu{
 }
 
 #but-s:hover i{
-	color: #E7C810;
+	color: #E8C918;
 }
 
 /*Footer*/
@@ -70,7 +70,7 @@ h6{
 footer p{
 	color: white;
 	font-family: 'PT Sans', sans-serif;
-	color: #E7C810;
+	color:  #E8C918;
 	text-align: center;
 	font-size: calc(.8rem + .2vw);
 }
@@ -93,50 +93,61 @@ footer .container-fluid p{
 }
 
 /*MAIN*/
-.banner{
-	 /*height: 50vh;*/
-	 width: 100%;
-	 background-image: url(../img/b4.jpg);
-	 background-size: cover;
-	 /*background-attachment: fixed;*/
-	 /*background-clip: initial;*/
-}
-
-.banner h1{
-	text-align: left;
-	font-size: calc(1.5rem + 1vw);
-}
-
-.banner div button{
-	font-size: calc(.7rem + .3vw);
-	font-family: 'PT Sans', sans-serif;
-}
-
-
-#h2banner{
-	width: 60vw;
-}
-
-main h2{
-	/*font-family: 'Fjalla One', sans-serif;*/
-	font-family: 'PT Sans', sans-serif;
-	font-size: calc(1rem + .3vw);
-	/*font-size: calc(.8rem + .8vw);*/
-	/*font-size: calc(.9rem + 1vw);*/
-	color: #022c43;
-}
-
 main h1{
 	font-family: 'Fjalla One', sans-serif;
 	text-align: center;
 	color: #022c43;
 	font-size: calc(1rem + 1vw);
 }
+main h2{
+	font-family: 'PT Sans', sans-serif;
+	font-size: calc(1rem + .3vw);
+	color: #022c43;
+}
+
 
 p{
 	font-family: 'PT Sans', sans-serif;	
 	text-align: justify;
 	font-size: calc(1rem + .3vw);
 }
+
+/*INDEX*/
+.banner{
+	 width: 100%;
+	 background-image: url(../img/b4.jpg);
+	 background-size: cover;
+}
+.banner h1{
+	text-align: left;
+	font-size: calc(1.5rem + 1vw);
+}
+#h2banner{
+	width: 60vw;
+}
+.banner div button{
+	font-size: calc(1rem + .3vw);
+	font-family: 'PT Sans', sans-serif;
+	border-radius: 0;
+	background-color:  #E8C918;
+	color: #022c43;
+	width: 20vw;
+}
+.banner div button{
+	font-size: calc(1rem + .3vw);
+	font-family: 'PT Sans', sans-serif;
+	border-radius: 0;
+	background-color: #E8C918;
+	color: #022c43;
+	width: 20vw;
+}
+.banner div button:hover{
+/*	transform: scale(1.2);*/
+	color:  #E8C918;
+	background-color: white;
+}
+
+
+
 
 

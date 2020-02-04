@@ -93,16 +93,41 @@ footer .container-fluid p{
 }
 
 /*MAIN*/
-.banner img{
-	 height: 50vh;
+.banner{
+	 /*height: 50vh;*/
 	 width: 100%;
+	 background-image: url(../img/b4.jpg);
+	 background-size: cover;
+	 /*background-attachment: fixed;*/
+	 /*background-clip: initial;*/
+}
+
+.banner h1{
+	text-align: left;
+}
+
+.banner button{
+	font-size: calc(.8rem + .8vw);
+}
+
+
+#h2banner{
+	width: 60vw;
+}
+
+main h2{
+	/*font-family: 'Fjalla One', sans-serif;*/
+	font-family: 'PT Sans', sans-serif;
+	font-size: calc(.8rem + .8vw);
+	/*font-size: calc(.9rem + 1vw);*/
+	color: #022c43;
 }
 
 main h1{
 	font-family: 'Fjalla One', sans-serif;
 	text-align: center;
 	color: #022c43;
-	font-size: calc(1.4rem + 1.2vw);
+	font-size: calc(1rem + 1vw);
 }
 
 p{
@@ -110,3 +135,5 @@ p{
 	text-align: justify;
 	font-size: calc(1rem + .3vw);
 }
+
+

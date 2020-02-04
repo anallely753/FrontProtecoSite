@@ -104,6 +104,7 @@ footer .container-fluid p{
 
 .banner h1{
 	text-align: left;
+	font-size: calc(1.5rem + 1vw);
 }
 
 .banner button{

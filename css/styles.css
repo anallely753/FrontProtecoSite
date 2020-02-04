@@ -114,9 +114,9 @@ p{
 
 /*INDEX*/
 .banner{
-	 width: 100%;
-	 background-image: url(../img/b4.jpg);
-	 background-size: cover;
+	width: 100%;
+	background-image: url(../img/b4.jpg);
+	background-size: cover;
 }
 .banner h1{
 	text-align: left;
@@ -125,27 +125,16 @@ p{
 #h2banner{
 	width: 60vw;
 }
-.banner div button{
+.banner div a button{
 	font-size: calc(1rem + .3vw);
 	font-family: 'PT Sans', sans-serif;
 	border-radius: 0;
 	background-color:  #E8C918;
 	color: #022c43;
-	width: 20vw;
 }
-.banner div button{
-	font-size: calc(1rem + .3vw);
-	font-family: 'PT Sans', sans-serif;
-	border-radius: 0;
-	background-color: #E8C918;
-	color: #022c43;
-	width: 20vw;
-}
-.banner div button:hover{
-/*	transform: scale(1.2);*/
-	color:  #E8C918;
-	background-color: white;
-}
+
+
+
 
 
 

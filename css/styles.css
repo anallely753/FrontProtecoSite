@@ -108,7 +108,7 @@ main h2{
 }
 main h3{
 	font-family: 'PT Sans', sans-serif;
-	font-size: calc(.8rem + .2vw);
+	font-size: calc(1rem + .2vw);
 	text-align: center;
 }
 
@@ -196,8 +196,8 @@ main .card-title{
 	height: 7%;
 }
 
-
-
-
+.jumbotron{
+	padding-top: 0;
+}
 
 

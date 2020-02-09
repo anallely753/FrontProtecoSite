@@ -95,12 +95,19 @@ footer .container-fluid p{
 }
 
 /*MAIN*/
-main h1{
+.banner h1{
 	font-family: 'Fjalla One', sans-serif;
 	text-align: center;
 	color: #022c43;
 	font-size: calc(1rem + 1vw);
 }
+.titulos h1{
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+	color: #022c43;
+	font-size: calc(1.4rem + 1vw);
+}
+
 main h2{
 	font-family: 'PT Sans', sans-serif;
 	font-size: calc(1rem + .4vw);

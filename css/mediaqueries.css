@@ -22,7 +22,11 @@
 		font-size: calc(1rem + .2vw);
 		text-align: center;
 	}
-
+	main h2{
+		font-family: 'PT Sans', sans-serif;
+		font-size: calc(1.4rem + .4vw);
+		color: #022c43;
+	}
 
 }
 

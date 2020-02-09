@@ -7,7 +7,7 @@ body {
 main {
 	flex: 1 0 auto;
 	margin-top: 55px;
-/*	background-color: gray;*/
+	/*	background-color: gray;*/
 }  
 
 /* NAV */
@@ -101,7 +101,7 @@ footer .container-fluid p{
 	color: #022c43;
 	font-size: calc(1rem + 1vw);
 }
-.titulos h1{
+h1{
 	font-family: 'Fjalla One', sans-serif;
 	text-align: center;
 	color: #022c43;
@@ -138,6 +138,7 @@ p{
 }
 #h2banner{
 	width: 60vw;
+	color: #022c43;
 }
 .banner div a button{
 	font-size: calc(1rem + .3vw);
@@ -146,12 +147,43 @@ p{
 	background-color:  #E8C918;
 	color: #022c43;
 }
-	/*slides*/
+.banner2 h1{
+	color: #E8C918;
+	text-align: left;
+	font-size: calc(1.5rem + 1vw);
+}
+
+.banner2 #h2banner{
+	width: 60vw;
+	color: white;
+}
+.banner2 div a button{
+	font-size: calc(1rem + .3vw);
+	font-family: 'PT Sans', sans-serif;
+	border-radius: 0;
+	background-color:  #022c43;
+	color:  white;
+}
+.banner2 div a button:hover{
+	font-size: calc(1rem + .3vw);
+	font-family: 'PT Sans', sans-serif;
+	border-radius: 0;
+	background-color:  #022c43;
+	color:  white;
+}
+.banner2{
+	background-color: #145374;
+	padding-top: 20px;
+	text-align: center;
+}
+.banner2 video{
+}
+/*slides*/
 
 /*cards*/
 .carousel-control-next,
 .carousel-control-prev {
-    filter: invert(100%);
+	filter: invert(100%);
 }
 
 main .card-title{
@@ -183,14 +215,14 @@ main .card-title{
 }
 .card .card-reveal{   
 	padding: 20px;
-    position: absolute;
-    width: 100%;
-    overflow-y: auto;
-    left:0;
-    bottom:12%;
-    height: 89%;
-    z-index: 1;
-    display: none;    
+	position: absolute;
+	width: 100%;
+	overflow-y: auto;
+	left:0;
+	bottom:12%;
+	height: 89%;
+	z-index: 1;
+	display: none;    
 }
 
 .card-body{
@@ -207,4 +239,14 @@ main .card-title{
 	padding-top: 0;
 }
 
+.jumbotron h5{
+	font-family: 'PT Sans', sans-serif;	
+	text-align: justify;
+	font-size: calc(.9rem + .3vw);
+	line-height: 25px;
+}
 
+.talleres{
+	margin: 0 auto;
+
+}

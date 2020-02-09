@@ -22,11 +22,17 @@
 		font-size: calc(1rem + .2vw);
 		text-align: center;
 	}
-	.titulos h1{
+	 h1{
 		font-family: 'Fjalla One', sans-serif;
 		text-align: center;
 		color: #022c43;
-		font-size: calc(1rem + 1vw);
+		font-size: calc(1.2rem + 1vw);
+	}
+	.banner2{
+		text-align: right;
+	}
+	.banner2 video{
+		height: 300px;
 	}
 }
 

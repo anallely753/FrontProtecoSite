@@ -22,22 +22,22 @@
 		font-size: calc(1rem + .2vw);
 		text-align: center;
 	}
-	main h2{
-		font-family: 'PT Sans', sans-serif;
-		font-size: calc(1.4rem + .4vw);
+	.titulos h1{
+		font-family: 'Fjalla One', sans-serif;
+		text-align: center;
 		color: #022c43;
+		font-size: calc(1rem + 1vw);
 	}
-
 }
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
-    nav{
-      height: 55px;
-    }
-    .carousel-inner{
-        justify-content: center;
-    }
+	nav{
+		height: 55px;
+	}
+	.carousel-inner{
+		justify-content: center;
+	}
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/

@@ -106,6 +106,11 @@ main h2{
 	font-size: calc(1rem + .3vw);
 	color: #022c43;
 }
+main h3{
+	font-family: 'PT Sans', sans-serif;
+	font-size: calc(1rem + .2vw);
+	text-align: center;
+}
 
 
 p{

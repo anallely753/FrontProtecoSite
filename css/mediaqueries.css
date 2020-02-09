@@ -33,6 +33,7 @@
 	}
 	.banner2 video{
 		height: 300px;
+		width: auto;
 	}
 }
 

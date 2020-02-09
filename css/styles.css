@@ -177,7 +177,7 @@ p{
 	text-align: center;
 }
 .banner2 video{
-	width: 400px;
+	width: 300px;
 }
 /*slides*/
 
@@ -249,5 +249,12 @@ main .card-title{
 
 .talleres{
 	margin: 0 auto;
+}
 
+.talleres .card{
+	width: 100%;
+}
+
+.tec img{
+	width: 200px;
 }

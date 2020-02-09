@@ -103,12 +103,12 @@ main h1{
 }
 main h2{
 	font-family: 'PT Sans', sans-serif;
-	font-size: calc(1rem + .3vw);
+	font-size: calc(1rem + .4vw);
 	color: #022c43;
 }
 main h3{
 	font-family: 'PT Sans', sans-serif;
-	font-size: calc(1rem + .2vw);
+	font-size: calc(.5rem + .2vw);
 	text-align: center;
 }
 

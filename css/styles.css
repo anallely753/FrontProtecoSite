@@ -95,12 +95,6 @@ footer .container-fluid p{
 }
 
 /*MAIN*/
-.banner h1{
-	font-family: 'Fjalla One', sans-serif;
-	text-align: center;
-	color: #022c43;
-	font-size: calc(1rem + 1vw);
-}
 h1{
 	font-family: 'Fjalla One', sans-serif;
 	text-align: center;
@@ -119,7 +113,6 @@ main h3{
 	text-align: center;
 }
 
-
 p{
 	font-family: 'PT Sans', sans-serif;	
 	text-align: justify;
@@ -127,6 +120,12 @@ p{
 }
 
 /*INDEX*/
+.banner h1{
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+	color: #022c43;
+	font-size: calc(1rem + 1vw);
+}
 .banner{
 	width: 100%;
 	background-image: url(../img/b4.jpg);
@@ -156,6 +155,8 @@ p{
 .banner2 #h2banner{
 	width: 60vw;
 	color: white;
+	font-family: 'PT Sans', sans-serif;
+
 }
 .banner2 div a button{
 	font-size: calc(1rem + .3vw);

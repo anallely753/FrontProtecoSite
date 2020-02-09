@@ -156,6 +156,7 @@ p{
 .banner2 #h2banner{
 	width: 60vw;
 	color: white;
+	text-align: center;
 }
 .banner2 div a button{
 	font-size: calc(1rem + .3vw);

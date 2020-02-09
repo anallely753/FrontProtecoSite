@@ -7,12 +7,14 @@ body {
 main {
 	flex: 1 0 auto;
 	margin-top: 55px;
+/*	background-color: gray;*/
 }  
 
 /* NAV */
 nav{
 	background-color: #022c43;
 	position: fixed !important;
+	z-index: 2000;
 }
 .navbar-nav .active a{
 	color: #E8C918 !important;
@@ -132,11 +134,62 @@ p{
 	background-color:  #E8C918;
 	color: #022c43;
 }
+	/*slides*/
 
-/*car*/
+/*cards*/
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
 
+main .card-title{
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	font-size: calc(1.2em + .3vw);
+	font-weight: bolder;
+}
 
+.show{
+	margin-left: 20px;
+}
 
+.card-car .card-text{
+	font-size: calc(.8em + .3vw);
+	font-family: 'PT Sans', sans-serif;
+	text-align: left;
+}
+
+.card-car .card-text span{
+	font-size: calc(.8em + .3vw);
+	font-weight: bolder;
+}
+.card-link:hover{
+	text-decoration: underline;
+}
+.card-link i:hover{
+	text-decoration: underline;
+}
+.card .card-reveal{   
+	padding: 20px;
+    position: absolute;
+    width: 100%;
+    overflow-y: auto;
+    left:0;
+    bottom:11%;
+    height: 89%;
+    z-index: 1;
+    display: none;    
+}
+
+.card-body{
+	padding-bottom: 0;
+	
+}
+
+.card-footer{
+	background-color: white;
+	height: 7%;
+}
 
 
 

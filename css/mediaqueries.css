@@ -22,9 +22,12 @@
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
-nav{
-		height: 55px;
-	}
+    nav{
+      height: 55px;
+    }
+    .carousel-inner{
+        justify-content: center;
+    }
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
@@ -33,3 +36,8 @@ nav{
 	
 
 }
+
+/* SLIDESHOW */
+
+
+/*slide 2*/

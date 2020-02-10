@@ -113,7 +113,7 @@
 			<h1 class="mt-md-4 mt-3 mb-1">Cursos semestrales</h1>
 			<a href=""><h3 class="text-secondary mb-md-3 mb-3">( Ver todos )</h3></a>
 		</div>
-		<!-- carousel -->
+		<!-- CAROUSEL -->
 		<div class="container-fluid mb-5">
 			<div id="carousel-example" class="carousel slide" data-ride="carousel">
 				<!-- controllers -->
@@ -312,13 +312,17 @@
 				<h1 class="mt-0 mb-md-4 ml-md-5">Talleres gratuitos</h1>			
 			</div>
 			<div class="container">
-				<div class="row talleres mt-4">				    
+				<!-- CARDS -->
+				<div class="row talleres mt-4">	
+					<!-- 1 -->
 					<div class="col-md-6">	
 						<div class="card mb-3" style="max-width: 540px;">
 							<div class="row no-gutters text-center pt-1">
+								<!-- img -->
 								<div class="col-lg-4">
 									<img src="img/logos/android.jpg" class="card-img c img-fluid" alt="...">
 								</div>
+								<!-- texto -->
 								<div class="col-lg-8">
 									<div class="card-body">
 										<h5 class="card-title">Android</h5>
@@ -330,15 +334,16 @@
 											<div class="col-12 col-md-12 col-lg-4 text-center">
 												<a href="#" class="card-link" title="Agregar al carrito">Regístrate</a>
 											</div>
-											<div class="col-4 col-md-6 col-lg-4 text-center">
+											<div class="col-6 col-md-6 col-lg-4 text-center">
 												<a href="#" class="card-link" title="Ver el temario">Temario</a>
 											</div>
-											<div class="col-4 col-md-6 col-lg-4 text-center">
+											<div class="col-6 col-md-6 col-lg-4 text-center">
 												<span href="" class="show card-link text-primary" data-rel="21" title="Ver detalles del curso">Ver más</span>
 											</div>
 										</div>											
 									</div>
 								</div>
+								<!-- reveal -->
 								<div class="card-reveal bg-light" data-rel="21">
 									<button type="button" class="close" data-dismiss="modal" aria-label="Close" data-rel="21"><span aria-hidden="true">×</span></button>
 									<p class="card-text mt-3"><span>Antecedentes: </span>Ninguno</p>
@@ -354,12 +359,15 @@
 							</div>
 						</div>
 					</div>
+					<!-- 2 -->
 					<div class="col-md-6">	
 						<div class="card mb-3" style="max-width: 540px;">
 							<div class="row no-gutters text-center pt-1">
+								<!-- img -->
 								<div class="col-lg-4">
 									<img src="img/logos/linux-tux-vector.png" class="card-img c img-fluid" alt="...">
 								</div>
+								<!-- texto -->
 								<div class="col-lg-8">
 									<div class="card-body">
 										<h5 class="card-title">Linux</h5>
@@ -371,15 +379,16 @@
 											<div class="col-12 col-md-12 col-lg-4 text-center">
 												<a href="#" class="card-link" title="Agregar al carrito">Regístrate</a>
 											</div>
-											<div class="col-4 col-md-6 col-lg-4 text-center">
+											<div class="col-6 col-md-6 col-lg-4 text-center">
 												<a href="#" class="card-link" title="Ver el temario">Temario</a>
 											</div>
-											<div class="col-4 col-md-6 col-lg-4 text-center">
+											<div class="col-6 col-md-6 col-lg-4 text-center">
 												<span href="" class="show card-link text-primary" data-rel="22" title="Ver detalles del curso">Ver más</span>
 											</div>
 										</div>											
 									</div>
 								</div>
+								<!-- reveal -->
 								<div class="card-reveal bg-light" data-rel="22">
 									<button type="button" class="close" data-dismiss="modal" aria-label="Close" data-rel="22"><span aria-hidden="true">×</span></button>
 									<p class="card-text mt-3"><span>Antecedentes: </span>Ninguno</p>
@@ -398,34 +407,52 @@
 				</div>
 			</div>
 		</div>
-
-			<!-- tecnologías -->
-			<div class="container titulos tec">
-				<h1 class="mt-md-4 mt-3 mb-1">También ofrecemos...</h1>
-				<a href=""><h3 class="text-secondary mb-md-3 mb-3">( Ver todos )</h3></a>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-2 col-4">
-							<img class="img-fluid" src="img/logos/java.png" alt="">
-						</div>
-						<div class="col-md-2 col-4">
-							<img class="img-fluid" src="img/logos/py.png" alt="">
-						</div>
-						<div class="col-md-2 col-4">
-							<img class="img-fluid" src="img/logos/excel.png" alt="">
-						</div>
-						<div class="col-md-2 col-4">
-							<img class="img-fluid" src="img/logos/linux-tux-vector.png" alt="">
-						</div>
-						<div class="col-md-2 col-4">
-							<img class="img-fluid" src="img/logos/android.png" alt="">
-						</div>
-						<div class="col-md-2 col-4">
-							<img class="img-fluid" src="img/logos/html.png" alt="">
-						</div>
+		<!-- TECNOLOGÍAS -->
+		<div class="container titulos tec">
+			<h1 class="mt-md-4 mt-3 mb-1">También ofrecemos...</h1>
+			<div class="container">
+				<div class="row mt-3">
+					<div class="col-md-2 col-4">
+						<img class="img-fluid" src="img/logos/java.png" title="Java" alt="">
+					</div>
+					<div class="col-md-2 col-4">
+						<img class="img-fluid" src="img/logos/python.png" title="Python" alt="">
+					</div>
+					<div class="col-md-2 col-4">
+						<img class="img-fluid" src="img/logos/ios.png" title="iOS" alt="">
+					</div>
+					<div class="col-md-2 col-4">
+						<img class="img-fluid" src="img/logos/linux.png" title="Linux" alt="">
+					</div>
+					<div class="col-md-2 col-4">
+						<img class="img-fluid" src="img/logos/android.png" title="Android" alt="">
+					</div>
+					<div class="col-md-2 col-4">
+						<img class="img-fluid" src="img/logos/html.png"  title="HTML" alt="">
+					</div>
+				</div>
+				<div class="row mt-3">
+					<div class="col-md-2 col-4">
+						<img class="img-fluid" src="img/logos/arduino.png" title="Java" alt="">
+					</div>
+					<div class="col-md-2 col-4">
+						<img class="img-fluid" src="img/logos/latex.gif" title="Python" alt="">
+					</div>
+					<div class="col-md-2 col-4">
+						<img class="img-fluid" src="img/logos/excel.png" title="Excel" alt="">
+					</div>
+					<div class="col-md-2 col-4">
+						<img class="img-fluid" src="img/logos/matlab.png" title="Linux" alt="">
+					</div>
+					<div class="col-md-2 col-4">
+						<img class="img-fluid" src="img/logos/c.png" title="Android" alt="">
+					</div>
+					<div class="col-md-2 col-4">
+						<img class="img-fluid" src="img/logos/sql.png"  title="HTML" alt="">
 					</div>
 				</div>
 			</div>
+		</div>
 
 		</main>
 		<footer class="pt-3">

@@ -162,18 +162,19 @@ p{
 	font-size: calc(1rem + .3vw);
 	font-family: 'PT Sans', sans-serif;
 	border-radius: 0;
-	background-color:  #022c43;
+	background-color:  #145374;
 	color:  white;
 }
 .banner2 div a button:hover{
 	font-size: calc(1rem + .3vw);
 	font-family: 'PT Sans', sans-serif;
 	border-radius: 0;
-	background-color:  #022c43;
-	color:  white;
+	background-color:  #145374;
+	color:  #E8C918;
 }
 .banner2{
-	background-color: #145374;
+	/*background-color: #145374;*/
+	background-color: #022c43;
 	padding-top: 20px;
 	text-align: center;
 }
@@ -188,7 +189,7 @@ p{
 	filter: invert(100%);
 }
 
-main .card-title{
+main .card-title, .talleres .card-title{
 	text-align: center;
 	font-family: 'PT Sans', sans-serif;
 	font-size: calc(1.2em + .3vw);
@@ -199,13 +200,13 @@ main .card-title{
 	margin-left: 20px;
 }
 
-.card-car .card-text{
+.card-car .card-text, .talleres .card-text{
 	font-size: calc(.8em + .3vw);
 	font-family: 'PT Sans', sans-serif;
 	text-align: left;
 }
 
-.card-car .card-text span{
+.card-car .card-text span, .talleres .card-text span{
 	font-size: calc(.8em + .3vw);
 	font-weight: bolder;
 }
@@ -221,8 +222,8 @@ main .card-title{
 	width: 100%;
 	overflow-y: auto;
 	left:0;
-	bottom:12%;
-	height: 89%;
+	bottom:13%;
+	height: 88%;
 	z-index: 1;
 	display: none;    
 }
@@ -236,7 +237,6 @@ main .card-title{
 	background-color: white;
 	height: 7%;
 }
-
 .jumbotron{
 	padding-top: 0;
 }
@@ -247,15 +247,16 @@ main .card-title{
 	font-size: calc(.9rem + .3vw);
 	line-height: 25px;
 }
+.tec img{
+	width: 12rem;
+}
 
 .talleres{
 	margin: 0 auto;
 }
 
-.talleres .card{
-	width: 100%;
+.c{
+	width: 50%;
 }
 
-.tec img{
-	width: 12rem;
-}
+

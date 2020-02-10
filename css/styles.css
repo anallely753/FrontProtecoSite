@@ -222,8 +222,8 @@ main .card-title, .talleres .card-title{
 	width: 100%;
 	overflow-y: auto;
 	left:0;
-	bottom:13%;
-	height: 88%;
+	bottom:18%;
+	height: 82%;
 	z-index: 1;
 	display: none;    
 }

@@ -14,9 +14,6 @@
 	footer p{
 		font-size: .8rem;
 	}
-	#h2banner{
-		width: 55vw;
-	}
 	main h3{
 		font-family: 'PT Sans', sans-serif;
 		font-size: calc(1rem + .2vw);
@@ -28,13 +25,7 @@
 		color: #022c43;
 		font-size: calc(1.2rem + 1vw);
 	}
-	.banner2{
-		text-align: right;
-	}
-	.banner2 video{
-		height: 300px;
-		width: auto;
-	}
+	
 	.c{
 		width: 80%;
 	}
@@ -55,6 +46,9 @@
 @media (min-width: 992px) { 
 	nav{
 		height: 55px;
+	}
+	.banner2 video{
+		width: 45vw;
 	}
 	.carousel-inner{
 		justify-content: center;

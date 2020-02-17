@@ -142,7 +142,6 @@
 		font-size: calc(1.5rem + 1vw);
 	}
 	#h2banner{
-		width: 60vw;
 		color: #022c43;
 	}
 	.banner div a button{
@@ -154,15 +153,12 @@
 	}
 	.banner2 h1{
 		color: #E8C918;
-		text-align: left;
 		font-size: calc(1.5rem + 1vw);
 	}
 
 	.banner2 #h2banner{
-		width: 60vw;
 		color: white;
 		font-family: 'PT Sans', sans-serif;
-
 	}
 	.banner2 div a button{
 		font-size: calc(1rem + .3vw);
@@ -179,13 +175,11 @@
 		color:  #E8C918;
 	}
 	.banner2{
-		/*background-color: #145374;*/
 		background-color: #022c43;
-		padding-top: 20px;
 		text-align: center;
 	}
 	.banner2 video{
-		width: 300px;
+		width: 80vw;
 	}
 	/*slides*/
 

@@ -239,6 +239,7 @@
 		font-size: calc(.9rem + .3vw);
 		line-height: 25px;
 	}
+
 	.tec img{
 		width: 12rem;
 	}
@@ -322,7 +323,7 @@
 	.bodyI{
 		padding: 8vh 5vw;
 	}
-	.fInicio input, .fInicio select{
+	.fInicio input, .fInicio select, .bodyI .modal input{
 		border-style: none;
 		border-bottom-style: solid;
 		font-family: 'PT Sans', sans-serif;	
@@ -344,6 +345,12 @@
 	.fInicio small{
 		font-family: 'PT Sans', sans-serif;	
 		display: block;
+	}
+	.bodyR h5, .bodyI h5{
+		font-family: 'PT Sans', sans-serif;	
+		text-align: center;
+		font-size: calc(1.2rem + .3vw);
+		font-weight: bold;
 	}
 
 

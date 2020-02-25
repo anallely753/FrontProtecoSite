@@ -40,6 +40,20 @@
 		z-index: 1;
 		display: none;    
 	}
+	.cardInicioS{
+		width: 500px;
+		height: 400px;
+		text-align: center;
+		position: relative;
+		top:-25vh;
+	}
+	.cardR{
+		width: 700px;
+		height: 450px;
+		text-align: center;
+		position: relative;
+		top:-25vh;
+	}
 }
 
 /*// Large devices (desktops, 992px and up)*/

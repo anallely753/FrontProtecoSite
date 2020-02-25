@@ -187,7 +187,7 @@
 			filter: invert(100%);
 		}
 
-		main .card-title, .talleres .card-title{
+		main .title, .talleres .card-title{
 			text-align: center;
 			font-family: 'PT Sans', sans-serif;
 			font-size: calc(1.2em + .3vw);
@@ -312,6 +312,40 @@
 		border-width: 2px !important;
 		font-size: calc(.8em + .3vw) !important;
 	}
+
+/*INICIO SESIÓN*/
+	.banner22{
+		background-color: #022c43;
+		padding-top: 40vh;
+		text-align: center;
+	}
+	.bodyI{
+		padding: 8vh 5vw;
+	}
+	.fInicio input, .fInicio select{
+		border-style: none;
+		border-bottom-style: solid;
+		font-family: 'PT Sans', sans-serif;	
+		font-size: calc(.7rem + .3vw);
+	}
+	.fInicio label{
+		font-family: 'PT Sans', sans-serif;	
+		font-size: calc(.7rem + .3vw);
+	}
+	.fInicio button{
+		width: 100%;
+		font-family: 'PT Sans', sans-serif;	
+		font-size: calc(.7rem + .3vw);
+	}
+/*REGISTRO*/
+	.bodyR{
+		padding: 8vh 5vw;
+	}
+	.fInicio small{
+		font-family: 'PT Sans', sans-serif;	
+		display: block;
+	}
+
 
 /*CARRITO*/
 	.bann-carrito{

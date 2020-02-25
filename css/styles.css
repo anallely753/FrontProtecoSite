@@ -361,13 +361,49 @@
 	}
 	.bann-carrito h1{
 		color: #E8C918;
+		font-size: calc(1.5rem + .6vw);
 	}
 	.basura{
-		width: 60%;
+		width: 50%;
 	}
 	.basura:hover{
 		animation-name: bote;
 		animation-duration: 3s;
 		transform: scale(1.2);
+	}
+	.infoP h2{
+		font-family: 'Fjalla One', sans-serif;
+		font-size: calc(1.2rem + .4vw);
+		color: #022c43;
+		text-align: center;
+	}
+	.infoP h5{
+		font-family: 'Fjalla One', sans-serif;
+		font-size: calc(1rem + .4vw);
+		color: #022c43;
+		text-align: center;
+	}
+	.infoP ol{
+		line-height: 25px;
+		font-family: 'PT Sans', sans-serif;
+	}
+	.infoP ol li span{
+		font-weight: bold;
+		font-family: 'PT Sans', sans-serif;
+	}
+	.infoP table{
+		width: 70%;
+		font-family: 'PT Sans', sans-serif;
+	}
+	.infoP a{
+		width: 100%;
+		text-align: center;
+	}
+	.infoP button{
+		width: 50%;
+	}
+
+	.logosm{
+		width: 15vw;
 	}
 	
